@@ -1,5 +1,8 @@
 # SBMultipeerVideoLive
-Using the framework "MultipeerConnectivity" to share camera video data from A to B, When they are near each other. Here is the demo video in youtube:
+Using the framework "MultipeerConnectivity" to share camera video data from A to B, When they are near each other.
+![image](http://o97h12868.bkt.clouddn.com/SBMultipeerVideoLive/IMG_20160623_112055R.jpg?imageView2/2/w/500)
+
+ Here is the demo video in youtube:
 <iframe width="420" height="315" src="https://www.youtube.com/embed/EO3RYe_dyPs" frameborder="0" allowfullscreen></iframe>
 
 ## About Multipeer Connectivity
