@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98E908641D1B83400081FE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E908631D1B83400081FE34 /* main.m */; };
+		98E908671D1B83400081FE34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E908661D1B83400081FE34 /* AppDelegate.m */; };
+		98E9086F1D1B83400081FE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E9086E1D1B83400081FE34 /* Assets.xcassets */; };
+		98E908721D1B83400081FE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E908701D1B83400081FE34 /* LaunchScreen.storyboard */; };
+		98E9087B1D1B851E0081FE34 /* AppConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9087A1D1B851E0081FE34 /* AppConstant.m */; };
+		98E908831D1B85280081FE34 /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9087E1D1B85280081FE34 /* AppHelper.m */; };
+		98E908841D1B85280081FE34 /* ConnectivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E908801D1B85280081FE34 /* ConnectivityManager.m */; };
+		98E908851D1B85280081FE34 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E908821D1B85280081FE34 /* MainViewController.m */; };
+		BCDEC4D5E999EE41D01345F4 /* libPods-SBMultipeerVideoLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA92C756C2F21A2BBC76763E /* libPods-SBMultipeerVideoLive.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AE47F6CB6B71956CE0508E0 /* Pods-SBMultipeerVideoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBMultipeerVideoLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SBMultipeerVideoLive/Pods-SBMultipeerVideoLive.debug.xcconfig"; sourceTree = "<group>"; };
+		98E9085F1D1B83400081FE34 /* SBMultipeerVideoLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBMultipeerVideoLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E908631D1B83400081FE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98E908651D1B83400081FE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98E908661D1B83400081FE34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98E9086E1D1B83400081FE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98E908711D1B83400081FE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98E908731D1B83400081FE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E908791D1B851E0081FE34 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		98E9087A1D1B851E0081FE34 /* AppConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstant.m; sourceTree = "<group>"; };
+		98E9087C1D1B85280081FE34 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		98E9087D1D1B85280081FE34 /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHelper.h; sourceTree = "<group>"; };
+		98E9087E1D1B85280081FE34 /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
+		98E9087F1D1B85280081FE34 /* ConnectivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityManager.h; sourceTree = "<group>"; };
+		98E908801D1B85280081FE34 /* ConnectivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectivityManager.m; sourceTree = "<group>"; };
+		98E908811D1B85280081FE34 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		98E908821D1B85280081FE34 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AD32BAEB668F4725C5F98F4C /* Pods-SBMultipeerVideoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBMultipeerVideoLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SBMultipeerVideoLive/Pods-SBMultipeerVideoLive.release.xcconfig"; sourceTree = "<group>"; };
+		BA92C756C2F21A2BBC76763E /* libPods-SBMultipeerVideoLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SBMultipeerVideoLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98E9085C1D1B83400081FE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDEC4D5E999EE41D01345F4 /* libPods-SBMultipeerVideoLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C96E95E22D40B1A70A32A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA92C756C2F21A2BBC76763E /* libPods-SBMultipeerVideoLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D27C56C99055B9136538D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AE47F6CB6B71956CE0508E0 /* Pods-SBMultipeerVideoLive.debug.xcconfig */,
+				AD32BAEB668F4725C5F98F4C /* Pods-SBMultipeerVideoLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98E908561D1B83400081FE34 = {
+			isa = PBXGroup;
+			children = (
+				98E908611D1B83400081FE34 /* SBMultipeerVideoLive */,
+				98E908601D1B83400081FE34 /* Products */,
+				64D27C56C99055B9136538D0 /* Pods */,
+				39C96E95E22D40B1A70A32A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98E908601D1B83400081FE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98E9085F1D1B83400081FE34 /* SBMultipeerVideoLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98E908611D1B83400081FE34 /* SBMultipeerVideoLive */ = {
+			isa = PBXGroup;
+			children = (
+				98E908651D1B83400081FE34 /* AppDelegate.h */,
+				98E908661D1B83400081FE34 /* AppDelegate.m */,
+				98E908791D1B851E0081FE34 /* AppConstant.h */,
+				98E9087A1D1B851E0081FE34 /* AppConstant.m */,
+				98E9087C1D1B85280081FE34 /* AppMacro.h */,
+				98E9087D1D1B85280081FE34 /* AppHelper.h */,
+				98E9087E1D1B85280081FE34 /* AppHelper.m */,
+				98E9087F1D1B85280081FE34 /* ConnectivityManager.h */,
+				98E908801D1B85280081FE34 /* ConnectivityManager.m */,
+				98E908811D1B85280081FE34 /* MainViewController.h */,
+				98E908821D1B85280081FE34 /* MainViewController.m */,
+				98E9086E1D1B83400081FE34 /* Assets.xcassets */,
+				98E908701D1B83400081FE34 /* LaunchScreen.storyboard */,
+				98E908731D1B83400081FE34 /* Info.plist */,
+				98E908621D1B83400081FE34 /* Supporting Files */,
+			);
+			path = SBMultipeerVideoLive;
+			sourceTree = "<group>";
+		};
+		98E908621D1B83400081FE34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98E908631D1B83400081FE34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98E9085E1D1B83400081FE34 /* SBMultipeerVideoLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E908761D1B83400081FE34 /* Build configuration list for PBXNativeTarget "SBMultipeerVideoLive" */;
+			buildPhases = (
+				585EA0A4131FB5420018FF8D /* [CP] Check Pods Manifest.lock */,
+				98E9085B1D1B83400081FE34 /* Sources */,
+				98E9085C1D1B83400081FE34 /* Frameworks */,
+				98E9085D1D1B83400081FE34 /* Resources */,
+				3DDEC7DFC9F0552D8AEFF501 /* [CP] Embed Pods Frameworks */,
+				C6826BE9BC3C15767DBDDA95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBMultipeerVideoLive;
+			productName = SBMultipeerVideoLive;
+			productReference = 98E9085F1D1B83400081FE34 /* SBMultipeerVideoLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98E908571D1B83400081FE34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Pandara;
+				TargetAttributes = {
+					98E9085E1D1B83400081FE34 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6TJK4HCVGJ;
+					};
+				};
+			};
+			buildConfigurationList = 98E9085A1D1B83400081FE34 /* Build configuration list for PBXProject "SBMultipeerVideoLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98E908561D1B83400081FE34;
+			productRefGroup = 98E908601D1B83400081FE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98E9085E1D1B83400081FE34 /* SBMultipeerVideoLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98E9085D1D1B83400081FE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E908721D1B83400081FE34 /* LaunchScreen.storyboard in Resources */,
+				98E9086F1D1B83400081FE34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DDEC7DFC9F0552D8AEFF501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SBMultipeerVideoLive/Pods-SBMultipeerVideoLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585EA0A4131FB5420018FF8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6826BE9BC3C15767DBDDA95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SBMultipeerVideoLive/Pods-SBMultipeerVideoLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98E9085B1D1B83400081FE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E908841D1B85280081FE34 /* ConnectivityManager.m in Sources */,
+				98E908851D1B85280081FE34 /* MainViewController.m in Sources */,
+				98E908671D1B83400081FE34 /* AppDelegate.m in Sources */,
+				98E908641D1B83400081FE34 /* main.m in Sources */,
+				98E9087B1D1B851E0081FE34 /* AppConstant.m in Sources */,
+				98E908831D1B85280081FE34 /* AppHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98E908701D1B83400081FE34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98E908711D1B83400081FE34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98E908741D1B83400081FE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98E908751D1B83400081FE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98E908771D1B83400081FE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE47F6CB6B71956CE0508E0 /* Pods-SBMultipeerVideoLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SBMultipeerVideoLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandara.SBMultipeerVideoLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98E908781D1B83400081FE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD32BAEB668F4725C5F98F4C /* Pods-SBMultipeerVideoLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SBMultipeerVideoLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandara.SBMultipeerVideoLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98E9085A1D1B83400081FE34 /* Build configuration list for PBXProject "SBMultipeerVideoLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E908741D1B83400081FE34 /* Debug */,
+				98E908751D1B83400081FE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E908761D1B83400081FE34 /* Build configuration list for PBXNativeTarget "SBMultipeerVideoLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E908771D1B83400081FE34 /* Debug */,
+				98E908781D1B83400081FE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98E908571D1B83400081FE34 /* Project object */;
+}
